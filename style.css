@@ -365,7 +365,8 @@ main {
   content:'';
   position: absolute;
   bottom: -5px;
-  left:0;
+  left:50%;
+  transform: translate(-50%,-50%);
   width:0;
   height: 2px;
   background-color: var(--Dark-Grayish-Violet);
