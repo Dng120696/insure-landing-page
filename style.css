@@ -557,4 +557,8 @@ main {
     flex-direction: column;
     text-align: left;
   }
+  .footer-sec-2 ul li:not(:first-child)::after{
+    left: 0;
+    transform: none;
+  }
 }
